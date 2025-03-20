@@ -48,7 +48,7 @@ basicCN <- ggplot(GSScsv,aes(y=WORDSUM, x=DEGREE))
 basicCN + geom_boxplot()
 ```
 
-As seen in the box plot, we have some boxes that crossover - such as LT high school and high school, graduate and bachelor, bachelor and junior college, and junior college and graduate. We also have some that do not crossover at all - such as junior college and high school and high school and graduate.
+As seen in the box plot, we have some boxes that crossover - such as LT high school and high school, graduate and bachelor, bachelor and junior college, and junior college and graduate. We also have some that do not crossover at all - such as junior college and high school and high school and graduate. The graduate box is completely higher than the high school and LT high school boxes. We suspect that they are statistically different at this point.
 
 ### Numerical Descriptive Results
 
