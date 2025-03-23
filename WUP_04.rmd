@@ -71,7 +71,7 @@ summary.aov(model1)
 So we have a significantly low p value of 0.000236, so we will reject the null hypothesis. 
 
 ```{r}
-par(mar = c(3, 17, 2, 2))
+par(mar = c(3, 16, 2, 2))
 plot(TukeyHSD(model1, conf.level=.98),las=2)
 ```
 
