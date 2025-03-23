@@ -78,3 +78,5 @@ plot(TukeyHSD(model1, conf.level=.98),las=2)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+First we created the boxplot between WORDSUM and DEGREE, then we did the sanme thing but with a ggplot. After that, we did our numerical descriptive results and found the Q1 of the graduate school is higher than the Q3 of high school and LT high school which typically results in a statistical difference once we do our statistical test. Next, we did our inferential results and concluded that we have a significantly low p value of 0.000236, so we rejected the null hypothesis. Finally we then did a TukeyHSD test.
