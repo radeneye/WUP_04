@@ -72,7 +72,7 @@ So we have a significantly low p value of 0.000236, so we will reject the null h
 
 ```{r}
 par(mar = c(3, 17, 2, 2))
-plot(TukeyHSD(model1, conf.level = .98),las=2)
+plot(TukeyHSD(model1, conf.level=.98),las=2)
 ```
 
 # Discussion and Conclusion
